@@ -1,2 +1,3 @@
 # cpp_codes
- C++ basics/ DSA
+Starting with basic logical question's until intermediate level DSA
+1. Hello World program.
