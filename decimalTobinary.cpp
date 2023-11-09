@@ -17,9 +17,9 @@ int ConvertTOBinary(int deci)
     int rem, bin = 0, mul = 1;
     while (deci > 0)
     {
-        rem = deci % 2;
+        rem = deci & 1;
         bin = rem * mul + bin;
-        deci /= 2;
+        deci >>= 1;
         mul *= 10;
     }
     return bin;
