@@ -13,7 +13,7 @@ int main()
     cout << "The last digit is\n";
     cout << rem;
     cout << "\nThe digit except the last digit\n";
-    cout << num2;
+    cout << num;
 
     return 0;
 }
