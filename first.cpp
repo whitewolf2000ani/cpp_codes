@@ -14,6 +14,6 @@ int main()
     cout << rem;
     cout << "\nThe digit except the last digit\n";
     cout << num;
-
+    cout<<"hello world";
     return 0;
 }
